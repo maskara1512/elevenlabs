@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: text-to-audio
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
